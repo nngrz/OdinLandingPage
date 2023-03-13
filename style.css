@@ -38,22 +38,30 @@ li {
     list-style: none;
 }
 
+a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
 .hero {
     display: flex;
     justify-content: space-between;
-    height: 350px;
+    align-items: center;
+    margin-bottom: 100px;
 }
 
 .herotext > h1 {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: bolder;
+    margin-top: 0;
     margin-bottom: 8px;
 }
 
 .herotext > p {
     font-size: 18px;
     color: #e5e7eb;
-    margin: 0 8px 8px 0;
+    padding-right: 8px;
+    margin: 0 8px 15px 0;
 }
 
 .herotext > button {
@@ -62,10 +70,86 @@ li {
     border-radius: 10px;
     border-style: none;
     color: #f9faf8;
-    padding: 8px; 
+    padding: 8px 25px; 
 }
 
 .heroimg {
-    width: 450px;
+    width: 1200px;
     height: 250px;
+}
+
+.viewsheader {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    width: 100%;
+    text-align: center;
+    margin: 60px auto;
+}
+
+.imagewrapper {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.buttonimg {
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+
+}
+
+img {
+    width: 150px;
+    height: 210px;;
+}
+
+.it {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.it > p {
+    font-size: 18px;
+    color: #656566;
+}
+
+blockquote {
+    width: 100%;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    padding: 80px 160px;
+    margin: 90px auto;
+}
+
+footer {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding: 30px 50px
+}
+
+.container > h2,p {
+    color: #f9faf8;
+}
+
+.container > p {
+    margin: 0;
+}
+
+footer > button {
+    background-color: #3882f6;
+    border: 2px solid #f9faf8;
+    border-radius: 8px;
+    color: #f9faf8;
+    padding: 0 30px;
+    font-size: 16px;
 }
