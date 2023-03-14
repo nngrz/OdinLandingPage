@@ -71,6 +71,7 @@ a {
     border-style: none;
     color: #f9faf8;
     padding: 8px 25px; 
+    cursor: pointer;
 }
 
 .heroimg {
@@ -93,10 +94,11 @@ a {
     display: flex;
     justify-content: space-between;
 }
+
 .buttonimg {
     border: 2px solid #3882f6;
     border-radius: 10px;
-
+    cursor: pointer;
 }
 
 img {
@@ -152,4 +154,6 @@ footer > button {
     color: #f9faf8;
     padding: 0 30px;
     font-size: 16px;
+    cursor: pointer;
 }
+
